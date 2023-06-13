@@ -1,6 +1,9 @@
 🤖 levizinrobot
 
-Um bot do WhatsApp desenvolvido em Node.js usando a biblioteca Baileys. O levizinrobot é projetado para facilitar a comunicação e oferecer recursos automatizados para usuários do WhatsApp.
+Me siga no instagram: `@leviscd`
+
+
+Esse é um bot do WhatsApp desenvolvido em Node.js usando a biblioteca Baileys. O levizinrobot é projetado para facilitar a comunicação e oferecer recursos automatizados para usuários do WhatsApp.
 
 Recursos e Funcionalidades:
 - Switches integrados a prefixos: permite a execução de diferentes ações com base em palavras-chave específicas, facilitando o controle e personalização do bot.
