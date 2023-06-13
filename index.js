@@ -1,3 +1,5 @@
+//ESSE SCRIPT FOI DISPONIBILIZADO OFICIALMENTE POR: @LEVISCD NO INSTAGRAM E GITHUB.
+
 const connect = require('./connection')
 const fs = require("fs")
 const axios = require('axios');
