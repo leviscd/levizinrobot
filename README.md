@@ -10,6 +10,8 @@ Recursos e Funcionalidades:
 
 Como utilizar:
 1. Clone o repositório e instale as dependências necessárias.
+- `npm init -y`
+- `npm install whiskeysockets/baileys`
 2. Inicie o bot executando o comando `node index.js`.
 3. Configure os switches e prefixos conforme suas necessidades específicas.
 4. Conecte o bot ao WhatsApp escaneando o código QR fornecido no terminal.
