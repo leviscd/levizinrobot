@@ -1,2 +1,2 @@
 # levizinrobot
-Bot desenvolvido em Node.Js possuindo Switchs integrados a prefixos para facilitar.
+Bot do whatsapp desenvolvido em Node.Js usando Baileys possuindo Switchs integrados a prefixos para facilitar.
