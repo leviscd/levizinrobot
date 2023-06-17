@@ -19,7 +19,7 @@ const client = await connect()
   if (isGroup) {
     return; // Não responder a mensagens de grupos, para responder so tirar esse if.
   }
-  // Criar uma closure que usa o body, o jid e o client do escopo externo
+ 
   function reply(text) {
     // Enviar uma mensagem para o jid, usando o text e o id do body como quoted
     client.sendMessage(jid, {text: text}, {quoted: body})
