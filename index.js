@@ -82,11 +82,7 @@ if (/^(oi|ou|opa|olá|tudo bem\??|bom|boa|dia|noite|tarde)$/.test(textuser)) {
       break;
     
     
-    case 'divulgar':
-      const args = textuser.split(" "); // separa a conversa pelo espaço
-      const texto = args[1]; // pega a mensagem que vem depois do comando
-      client.sendMessage("id@g.us", {text: texto}); // envia a mensagem para o contato
-      break;
+    
     // Adicionar mais cases para outros comandos
     default:
       break;
