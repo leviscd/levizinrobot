@@ -81,18 +81,11 @@ if (/^(oi|ou|opa|olá|tudo bem\??|bom|boa|dia|noite|tarde)$/.test(textuser)) {
 }
 // ...
 
-if (textuser.includes('teste')) {
-  reply('Oferecemos diversos cursos na área de Direito. Entre em contato conosco para obter mais informações!');
-}
-
 
 switch (command) { 
 case 'restart':
 case 'r':
 case 'reiniciar':
-reply("Você tem permissão, estou reiniciando.")
-  // Parar o script antes de reiniciar
-  // Executar o comando para reiniciar o index.js
   exec('node index.js', (error, stdout, stderr) => {
     if (error) {
       console.error(`Erro ao reiniciar o bot: ${error}`);
