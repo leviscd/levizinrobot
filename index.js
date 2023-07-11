@@ -26,7 +26,7 @@ const client = await connect()
 
   
   const jid = body.key.remoteJid
-  const Owner = ["seudono@s.whatsapp.net"]
+  const Owner = ["seunumero@s.whatsapp.net"]
   const messageId = body.key.id
   const fromMe = body.key.fromMe
   const isGroup = body.key.remoteJid.endsWith('@g.us') 
