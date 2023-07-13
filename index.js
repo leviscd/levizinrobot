@@ -40,8 +40,7 @@ const client = await connect()
   }
  
   
-  // caso contrário, prosseguir com o tratamento do comando
-  const messageText = body.message && body.message.conversation || '';
+const messageText = body.message && body.message.conversation || '';
 const extendedText = body.message?.extendedTextMessage?.text || '';
 const buttonsResponse = body.message?.buttonsResponseMessage?.selectedDisplayText || '';
 const imageCaption = body.message?.imageMessage?.caption || '';
