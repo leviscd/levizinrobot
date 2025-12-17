@@ -1,6 +1,6 @@
 🤖 levizinrobot
 
-Me siga no instagram: `@leviikkj`
+Me siga no instagram: `@levisantn`
 
 
 Esse é um bot do WhatsApp desenvolvido em Node.js usando a biblioteca Baileys. O levizinrobot é projetado para facilitar a comunicação e oferecer recursos automatizados para usuários do WhatsApp.
